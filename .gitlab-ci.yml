@@ -1,0 +1,39 @@
+
+stages:
+    - setup
+    - test
+
+setup:
+    stage: setup
+    script: bash .bootstrap.sh
+    artifacts:
+      paths:
+        - .venv
+    tags:
+        - archlinux
+docs:
+    stage: test
+    dependencies:
+      - setup
+    script:
+      - source .venv/bin/activate && LC_ALL=C BROWSER=echo make docs
+    tags:
+        - archlinux
+
+syntax:
+    stage: test
+    dependencies:
+      - setup
+    script:
+      - source .venv/bin/activate && make mypy lint
+    tags:
+        - archlinux
+
+py37:
+    stage: test
+    dependencies:
+      - setup
+    script:
+      - source .venv/bin/activate && make pytest
+    tags:
+        - archlinux
