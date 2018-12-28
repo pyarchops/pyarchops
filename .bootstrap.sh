@@ -16,7 +16,7 @@ if ! `which pyenv >/dev/null 2>&1`; then
 fi
 
 echo "${bold}activating  pyenv....${normal}"
-. ~/.profile
+test -e ~/.profile && . ~/.profile
 
 echo "${bold}looking for a new pyenv version....${normal}"
 pyenv update
