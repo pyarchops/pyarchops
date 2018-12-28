@@ -1,4 +1,4 @@
 suitable==0.14.0
-pyarchops_os_updates
+pyarchops_os_updates==0.0.2
 pyarchops_helpers==0.0.5
 pyarchops_tinc==0.0.1
