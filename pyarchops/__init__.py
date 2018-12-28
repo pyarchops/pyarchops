@@ -1,6 +1,6 @@
 """ __init__.py for pyarchops """
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 
 from pyarchops_os_updates import os_updates  # noqa
