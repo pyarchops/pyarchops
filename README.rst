@@ -45,6 +45,7 @@ Usage
 
     import os
     import pyarchops
+    from suitable import Api
 
     api = Api(
         '127.0.0.1:22',
