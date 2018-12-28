@@ -60,6 +60,14 @@ Usage
     result = pyarchops.os_updates.apply(api)
     print(result)
 
+
+See the different README pages for the different modules:
+
+* https://github.com/pyarchops/helpers
+* https://github.com/pyarchops/os-updates
+* https://github.com/pyarchops/tinc
+
+
 Development
 -----------
 
