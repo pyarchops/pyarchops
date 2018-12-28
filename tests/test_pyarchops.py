@@ -18,3 +18,6 @@ def test_pyarchops_imports():
 
     assert inspect.ismodule(pyarchops.helpers)
     assert inspect.isfunction(pyarchops.helpers.ephemeral_docker_container)
+
+    assert inspect.ismodule(pyarchops.tinc)
+    assert inspect.isfunction(pyarchops.tinc.apply)
