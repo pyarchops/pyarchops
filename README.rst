@@ -63,6 +63,7 @@ Usage
 
 See the different README pages for the different modules:
 
+* https://github.com/pyarchops/dnsmasq
 * https://github.com/pyarchops/helpers
 * https://github.com/pyarchops/os-updates
 * https://github.com/pyarchops/tinc
