@@ -1,6 +1,6 @@
 """ __init__.py for pyarchops """
 
-__version__ = '0.0.4'
+__version__ = '0.0.5'
 
 
 from pyarchops_dnsmasq import dnsmasq  # noqa
