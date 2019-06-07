@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-ansible==2.8.0            # via suitable
+ansible==2.8.1            # via suitable
 asn1crypto==0.24.0        # via cryptography
 cffi==1.12.3              # via cryptography
 cryptography==2.7         # via ansible
